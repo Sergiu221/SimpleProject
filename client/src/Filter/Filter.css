@@ -1,0 +1,19 @@
+.Select {
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: #0033ff;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.filter {
+    margin: auto;
+    background-color: #666666;
+}
