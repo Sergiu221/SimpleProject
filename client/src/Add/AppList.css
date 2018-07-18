@@ -1,9 +1,9 @@
-
 .container {
-    background-image: url("../style/images/background.jpg");
-    width: 100%;
+  background-image: url("../style/images/background.jpg");
+  width: 100%;
 }
+
 * {
-    margin: auto;
-    padding: 0;
+  margin: auto;
+  padding: 0;
 }

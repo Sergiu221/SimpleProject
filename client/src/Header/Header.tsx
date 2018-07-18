@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+// import PostImage from '../style/images/add.png';
+// import LogoImage from '../style/images/people-logo.png';
 class Header extends React.Component<{}, any> {
   constructor(props: any) {
     super(props);
@@ -9,24 +11,12 @@ class Header extends React.Component<{}, any> {
     };
   }
 
-
   public render() {
-    const addPostImage = require('../style/images/add.png');
-    const addLogoImage = require('../style/images/people-logo.png');
     return (
       <nav className="navbar">
-          <form method="post">
-              <input className="search" name="search" placeholder="Cauta..."/>
-              <button className="searchButton"/>
-              <a href="lPost.php" className="navButton">
-                  <img src={addPostImage} className="navImg"/>
-                  <p className="navText">Add Post</p>
-              </a>
-              <a href="home.php" className="navButton">
-                  <img src={addLogoImage} className="navImg"/>
-                  <p className="navText"> Sergiu </p>
-              </a>
-          </form>
+        <div>
+          Here will be the Header.
+        </div>
       </nav>
     );
   }
