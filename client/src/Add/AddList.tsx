@@ -24,9 +24,9 @@ class AddList extends React.Component<{}, any> {
       return <p>Loading...</p>;
     }
     return (
-      <div className="container" id="show_anunt">
+      <div className="container">
         {adds.map((add: any) =>
-          <div key={add.id} >
+          <div  className="wrap-container" key={add.id} >
             <Add id={add.id}
               username={add.username}
               category={add.category}
